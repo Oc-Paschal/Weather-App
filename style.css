@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 2rem;
+    width: 20rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+button{
+    background-color: pink;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: aqua;
+}
+h3{
+    color: white;
+}
